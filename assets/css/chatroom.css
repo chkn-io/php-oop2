@@ -1,0 +1,46 @@
+*{
+    box-sizing: border-box;
+}
+#chatroom{
+    border:5px solid #000;
+    padding:1rem;
+    width:100%;
+    float:left;
+}
+
+.others{
+    float:left;
+    width:100%;
+    margin-bottom:1rem;
+}
+
+.others div{
+    width:30%;
+    float:left;
+    padding:1rem;
+    border-radius:1rem;
+    background-color:#777777;
+    color:#fff;
+}
+
+.you{
+    float:right;
+    width:100%;
+    margin-bottom:1rem;
+}
+
+.you div{
+    width:30%;
+    float:right;
+    padding:1rem;
+    border-radius:1rem;
+    background-color:#371cff;
+    color:#fff;
+}
+
+#input{
+    width:100%;
+    float:left;
+    margin-top:1rem;
+    padding:1rem;
+}
